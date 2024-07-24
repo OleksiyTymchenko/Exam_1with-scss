@@ -1,0 +1,242 @@
+// .hero {
+//   padding: 295px 18px 120px;
+//   background: url("../../img/hero/HeaderBackground.png") center / 100% 100%
+//     no-repeat;
+//   background-size: cover;
+//   width: 100%;
+//   //   height: 100vh;
+//   height: 862px;
+//   color: #fff;
+//   text-align: center;
+
+//   .under-title {
+//     letter-spacing: 31%;
+//     line-height: 28px;
+//     font-family: "Josefin Sans", sans-serif;
+//     margin: 8px 0 48px;
+//   }
+
+//   form {
+//     display: flex; /* Розміщує елементи форми в рядку */
+//     justify-content: center;
+//     margin-bottom: 20px; /* Додає відступ знизу форми */
+//     position: relative;
+//     max-width: 647px;
+//     margin: 0 auto;
+//     margin-bottom: 211px;
+//   }
+
+//   input[type="text"] {
+//     // flex: 1; /* Розширює поле ввода на весь доступний простір */
+//     padding: 10px; /* Додає відступи всередині поля ввода */
+//     border: 1px solid #ccc; /* Додає рамку до поля ввода */
+//     width: 647px;
+//     height: 60px;
+//     font-family: "Josefin Sans", sans-serif;
+//     padding-left: 36px;
+//   }
+
+//   button[type="submit"] {
+//     background-color: #007bff; /* Змінює колір фону кнопки */
+//     color: #fff; /* Змінює колір тексту кнопки */
+//     border: none; /* Видаляє рамку з кнопки */
+//     cursor: pointer; /* Змінює курсор при наведенні на кнопку */
+//     position: absolute;
+//     top: 4px;
+//     right: 5px;
+//     bottom: 4px;
+//     padding: 16px 24px 16px 52px;
+//     text-transform: uppercase;
+//     font-size: 1.4rem;
+//     font-family: "Aleo", serif;
+//     line-height: 20px;
+//   }
+//   button::before {
+//     content: url("../../img/hero/search.png"); /* Заміна на URL-адресу вашої картинки */
+//     position: absolute;
+//     left: 24px; /* Змушує псевдоелемент займати місце в блоці */
+//     top: 18px;
+//     width: 16px; /* Задає ширину картинки */
+//     height: 16px; /* Задає висоту картинки */
+//   }
+//   a {
+//     position: relative;
+//   }
+//   a::before {
+//     content: url("../../img/hero/chevron-down.png"); /* Заміна на URL-адресу вашої картинки */
+//     position: absolute;
+//     left: 40px; /* Змушує псевдоелемент займати місце в блоці */
+//     top: 20px;
+//     width: 14px; /* Задає ширину картинки */
+//     height: 16px;
+//   }
+// }
+
+.hero {
+  background-image: url(../img/hero/HeaderBackground.png);
+  background-size: cover;
+  // height: 100vh; 
+  height: 862px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 295px; 
+    text-align: center;
+
+    .sub-text {
+      width: 31ch;
+      animation: flashing-border 0.75s step-end infinite,
+        printed-text 5s steps(21);
+      font-family: "Josefin Sans", sans-serif;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 4px solid orange;
+      display: flex;
+      align-items: center;
+
+      margin-top: 8px;
+      font-size: 22px;
+      margin-bottom: 48px;
+      line-height: 28px;
+      letter-spacing: 8px;
+    }
+
+    form {
+      position: relative;
+      margin-bottom: 211px;
+
+      .search {
+        height: 60px;
+        width: 647px;
+        color: #999999;
+        /* padding: 20px 20px 20px 52px; */
+        letter-spacing: 3px;
+        padding-left: 35px;
+      }
+      .submit {
+        height: 50px;
+        width: 139px;
+        border: none;
+        color: #fff;
+        background-color: #5373fd;
+        font-family: "Aleo", serif;
+        text-transform: uppercase;
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        cursor: pointer;
+        padding-left: 30px;
+        font-size: 14px;
+      }
+      .submit:hover {
+        opacity: 0.7;
+      }
+
+      .submit-Icon {
+        background-image: url(../img/hero/search.png);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 112px;
+        top: 23px;
+      }
+
+      .scroll {
+        position: relative;
+
+        a::before {
+          content: url("../img/hero/chevron-down.png");
+          display: block;
+          position: absolute;
+          left: 40px;
+          top: 20px;
+          width: 14px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 200px) and (max-width: 690px) {
+  .hero .container {
+    .sub-text {
+      width: 34ch;
+      font-size: 17px;
+    }
+    form {
+      position: relative;
+      margin-bottom: 211px;
+
+      .search {
+        height: 60px;
+        width: 340px;
+        color: #999999;
+        /* padding: 20px 20px 20px 52px; */
+        letter-spacing: 3px;
+        padding-left: 20px;
+      }
+      .submit {
+        height: 50px;
+        width: 139px;
+        border: none;
+        color: #fff;
+        background-color: #5373fd;
+        font-family: "Aleo", serif;
+        text-transform: uppercase;
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        cursor: pointer;
+        padding-left: 30px;
+      }
+      .submit:hover {
+        opacity: 0.7;
+      }
+
+      .submit-Icon {
+        background-image: url(../img/img/hero/search.png);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 100px;
+        top: 20px;
+      }
+
+      .scroll {
+        position: relative;
+
+        a::before {
+          content: url("../img/hero/chevron-down.png");
+          display: block;
+          position: absolute;
+          left: 40px;
+          top: 20px;
+          width: 14px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+
+@keyframes flashing-border {
+  0% {
+    border-color: orange;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: orange;
+  }
+}
+
+@keyframes printed-text {
+  from {
+    width: 0;
+  }
+}

@@ -1,0 +1,198 @@
+// .none{
+//   display: none;
+// }
+
+
+// * {
+//   padding: 0;
+//   margin: 0;
+//   &,
+//   &::after,
+//   &::before {
+//     box-sizing: border-box;
+//   }
+// }
+// img {
+//   width: 100%;
+// }
+// h1,
+// h2,
+// h3,
+// h4,
+// h5, 
+// h6 {
+//   margin: 0;
+// }
+// html {
+//   font-size: 10px;
+//   overflow-x: hidden;
+// }
+
+// body {
+//   color: #fff;
+//   font-size: 1.8rem;
+
+//   font-family: "Aleo", serif;
+//   font-optical-sizing: auto;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// ul {
+//   margin-bottom: 0;
+// }
+
+// li {
+//   list-style-type: none;
+//   font-size: 1.6rem;
+// }
+// a {
+//   text-decoration: none;
+//   //   font-family: "Montserrat", sans-serif;
+//   color: #fff;
+//   font-family: "Josefin Sans", sans-serif;
+// }
+
+// p {
+//   font-size: 1.6rem;
+//   padding: 0;
+//   margin: 0;
+//   font-family: "Josefin Sans", sans-serif;
+//   line-height: 28px;
+//   font-weight: 300;
+// }
+// h1 {
+  
+//   font-family: "Josefin Sans", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: 700;
+//   font-style: normal;
+//   font-size: 4.8rem;
+//   line-height: 52px;
+
+//   text-transform: uppercase;
+//   text-align: center;
+// }
+// h2 {
+//   // font-family: "Red Hat Display", sans-serif;
+//   font-size: 3.6rem; 
+//   font-weight: 400;
+//   font-style: normal;
+// }
+// h3 {
+//   font-family: "Josefin Sans", sans-serif;
+//   font-size: 2rem;
+//   font-weight: 400;
+// }
+
+// h4 {
+//   font-size: 30px;
+//   /* font-family: 'Roboto', sans-serif; */
+// }
+
+
+
+// .container {
+//   max-width: 1140px;
+//   width: 100%;
+//   margin: auto;
+// }
+
+// .logo {
+//   height: 42px;
+//   width: 164px;
+// }
+
+
+html {
+     font-size: 10px;
+     overflow-x: hidden;
+   }
+
+.none {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #e4e4e4;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+}
+h1 {
+  font-size: 48px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 36px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+}
+h3 {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.button {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5373fd;
+  padding: 20px 32px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5373fd;
+  background-color: #fff;
+  padding: 20px 32px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: auto;
+}

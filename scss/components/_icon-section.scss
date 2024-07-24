@@ -1,0 +1,152 @@
+// .icons {
+//   padding: 60px 0;
+//   background-color: #333333;
+//   color: #fff;
+//   .waves {
+//     background: url("../../img/icon-section/waves.png") center / 100% 100%
+//       no-repeat;
+//     background-size: cover;
+//     width: 752px;
+//     height: 69px;
+//     margin: 0 auto;
+
+//     position: relative;
+//     bottom: -20px;
+//   }
+//   .icon-list {
+//     display: flex; 
+//     justify-content: space-around;
+//     .icon-list__item {
+//         padding: 16px;
+//         background-color: #333333;
+//         border-radius: 50%;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: column;
+//         position: relative;
+//         z-index: 1;
+//       svg {
+//         width: 64px;
+//         height: 64px;
+
+//       }
+//       p{
+//         font-size: 3.6rem;
+//         font-family: "Aleo", serif;
+//         margin-top: 20px;
+//       }
+//     }
+//   }
+// }
+
+// @media (min-width: 200px) and (max-width: 1150px) {
+//   .icons {
+//     .waves {
+//       width: 632px;
+//       height: 58px;
+//     }
+//   }
+// }
+
+// @media (min-width: 200px) and (max-width: 950px) {
+//   .icons {
+//     .waves {
+//       display: none;
+//     }
+//     .icon-list {
+//       flex-direction: column;
+//       .icon-list__item {
+//           margin-bottom: 60px;
+
+//       }
+//     }
+//   }
+// }
+
+.icons {
+  background-color: #333333;
+}
+
+.icons .container {
+  padding: 107px 59px;
+}
+.list-icon {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.list-icon__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    margin-bottom: 20px;
+  }
+}
+.icon-size {
+  width: 64px;
+  height: 64px;
+}
+
+.icon-text {
+  font-size: 36px;
+  font-family: "Aleo", serif;
+  margin-top: 20px;
+}
+
+.box__item {
+  background-image: url(../img/icon-section/waves.png);
+  background-size: cover;
+
+  width: 85%;
+  height: 69px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  bottom: -5px;
+}
+
+.icon-box {
+  height: 48px;
+  width: 48px;
+  background-color: #333333;
+}
+
+.list-icon{
+  background-color: #333333;
+  
+  .list-icon__item{
+
+    border-radius: 50%;
+    .icon-size{
+      
+      width: 96px;
+      height: 96px;
+    }
+  }
+}
+
+@media (min-width: 200px) and (max-width: 1150px) {
+    .box__item{
+      display: none;
+    }
+    .list-icon{
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (min-width: 200px) and (max-width: 1024px) {
+    .list-icon{
+      flex-direction: column;
+
+      .list-icon__item{
+        margin-bottom: 50px;
+      }
+    }
+  }

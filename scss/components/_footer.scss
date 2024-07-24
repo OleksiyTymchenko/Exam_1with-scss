@@ -1,0 +1,110 @@
+// .footer {
+//   padding: 80px;
+//   background: #000000;
+//   text-align: center;
+//   h2 {
+//     text-transform: uppercase;
+//     font-family: "Josefin Sans", sans-serif;
+//     margin-bottom: 8px;
+//   }
+//   p {
+//     font-size: 1.4rem;
+//     margin-bottom: 20px;
+//   }
+
+//   .social-list{
+//     display: flex;
+//     justify-content: space-between;
+//     width: 275px;
+//     margin: 0 auto;
+//   }
+
+//   .social-icon{ 
+//     width: 32px;
+//     height: 32px;
+//   }
+//   .social-icon-hover{
+//     // display: none;
+//     width: 32px;
+//     height: 32px;
+//   }
+//   .social-icon-hover{
+//     display: none;
+//   }
+//   .social-list__item:hover .social-icon-hover{
+//     display: inline-block;
+//   }
+//   .social-list__item:hover .social-icon{
+//     display: none;
+//   }
+
+
+
+  
+// }
+
+.footer {
+  background-color: #000000;
+}
+
+.footer .container {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer .container h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 28px;
+}
+
+.footer .container .sub-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+.footer-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.social-list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.footer-icon {
+  fill: #fff;
+}
+
+.footer-icon:hover {
+  fill: #5373fd;
+}
+
+.footer-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.footer .social-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-direction: row;
+}
+
+.footer-icon {
+  fill: #fff;
+}
+
+.footer-icon:hover {
+  fill: #5373fd;
+}

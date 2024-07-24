@@ -1,0 +1,100 @@
+// .advertisement {
+//   padding: 220px 32px 120px;
+//   background: url("../../img/advertisement/bg-1.png") center / 100% 100%
+//     no-repeat;
+//   background-size: cover;
+//   width: 100%;
+//   // height: 100vh;
+// //   height: 712px;
+
+//   color: #fff;
+//   .advertisement-box{
+//     padding: 44px 32px;
+//     background: url("../../img/advertisement/text-BG.png") center / 100% 100%
+//     no-repeat;
+//     max-width: 648px;
+//     width: 558px;
+//     h3{
+//         margin: 16px 0;
+//         text-transform: uppercase;
+//     }
+    
+//   } 
+// }
+
+// .section-2{
+//     background: url("../../img/advertisement/bg-2.png") center / 100% 100%
+//     no-repeat;
+//   background-size: cover;
+//   width: 100%;
+//     .container{
+//         display: flex;
+//         justify-content: flex-end;
+//     }
+// }
+
+// @media (min-width: 200px) and (max-width: 768px) {
+//     .advertisement {
+//         padding: 220px 24px 120px;
+        
+//         .advertisement-box{
+          
+//           h3{
+//               margin: 16px 0;
+//               text-transform: uppercase;
+//           }
+          
+//         }
+//       }
+//   }
+
+//   @media (min-width: 200px) and (max-width: 576px) {
+//     .advertisement {
+//         padding: 220px 18px 120px;
+        
+//         .advertisement-box{
+          
+//           h3{
+//               margin: 16px 0;
+//               text-transform: uppercase;
+//           }
+          
+//         }
+//       }
+//   }
+
+.spain.first {
+  background-image: url(../img/advertisement/bg-1.png);
+  background-size: cover;
+}
+.spain.second {
+  background-image: url(../img/advertisement/bg-2.png);
+  background-size: cover;  
+}
+.spain .container {
+  padding: 220px 18px 120px;
+}
+
+.text-box {
+  background-color: #232323;
+  opacity: 0.9;
+  padding: 44px;
+  max-width: 648px;
+}
+
+.sup-text {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.spain-text {
+  margin-top: 15px;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.spain.second .container {
+  display: flex;
+  justify-content: flex-end;
+}
